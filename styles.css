@@ -1,40 +1,74 @@
 /* Element Selectors */
-body {
-  margin: 0;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 1.5em; /* about 15 pixels*/
+header {
+    background: black;
+    margin: 0;
+    padding-left: 5px;
+    text-align: left;
+    color: white;
 }
 
-h3 {
-  margin: 1em;
+form{
+  width: 130px;
+  margin: 0 auto;
 }
 
-/* Class Selectors */
-.header {
-  margin-top: -28px; /* push up */
-  width: 100%; /* use percentage to make it fluid*/
-  height: 100px;
-  background-color: #669;
-}
-
-.left-column {
-  width: 50%;
-  height: 500px;
+.div:nth-of-type(1) {
+  width: 48%;
   float: left;
-  background-color: #69C;
 }
 
-.right-column {
-  width: 50%;
-  height: 500px;
+.div:nth-of-type(2) {
+  width: 48%;
   float: right;
-  background-color: #99C;
 }
 
-.footer {
-  clear: left;
-  margin-bottom: 0;
-  width: 100%;
-  height: 200px;
-  background-color: rgb(39, 13, 62);
+.body {
+
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.0em;
+  height: 100px;/* about 15 pixels*/
+}
+
+p {
+  line-height: 2;
+  word-spacing: 0.1rem;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 21px;
+  colour: blue;
+}
+
+.Me{
+  margin: 10px;
+}
+
+img{
+  align-items: center;
+}
+
+div form{
+  margin: 0x auto;
+  align-items: center;
+}
+
+nav li {
+  width: 100px;
+}
+
+nav ul{
+  margin: 0;
+  display: inline;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px 15px;
+}
+
+.col1{
+  float: left;
+  margin: 5px 15px 0px 0px;
 }
