@@ -37,7 +37,6 @@ p {
 nav a{
   text-decoration: none;
   font-size: 0.9em;
-  colour: ;
 }
 
 body {
@@ -72,15 +71,10 @@ body {
 
 .row1{
   margin: 30px;
-  align: center;
 }
 
 .Me{
   margin: 10px;
-}
-
-img{
-  align: center;
 }
 
 
