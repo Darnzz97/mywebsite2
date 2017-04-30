@@ -4,112 +4,111 @@ header {
     padding-left: 5px;
     color: white;
 }
-h1{
-  text-align: left;
+
+h1 {
+    text-align: left;
 }
 
-form{
-  width: 150px;
-  margin: 0 auto;
-  padding: 0 15px 15px 0;
-  font-size: 0.6em;
-  text-align: left;
+form {
+    width: 150px;
+    margin: 0 auto;
+    padding: 0 15px 15px 0;
+    font-size: 0.6em;
+    text-align: left;
 }
 
-.contact{
-  font-size: 0.7em;
+.contact {
+    font-size: 0.7em;
 }
 
 .div:nth-of-type(1) {
-  width: 48%;
-  float: left;
+    width: 48%;
+    float: left;
 }
 
 .div:nth-of-type(2) {
-  width: 48%;
-  float: right;
+    width: 48%;
+    float: right;
 }
 
 p {
-  line-height: 2;
-  word-spacing: 0.1rem;
+    line-height: 2;
+    word-spacing: 0.1rem;
 }
 
-nav a{
-  text-decoration: none;
-  font-size: 0.9em;
-  color: #FFFFFF
+nav a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #FFFFFF
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  line-height: 100%;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 1.5em;
-  color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    line-height: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: #333;
 }
 
 .main {
-  padding: 1em;
-  background: #FFFFFF;
-  text-align: center;
+    padding: 1em;
+    background: #FFFFFF;
+    text-align: center;
 }
 
 .footer {
-  padding: 1em;
-  font-size: 0.6em;
-  color: white;
-  background: #000000;
-  text-align: left;
+    padding: 1em;
+    font-size: 0.6em;
+    color: white;
+    background: #000000;
+    text-align: left;
 }
 
-.div_link{
-  margin-right: 100px
+.div_link {
+    margin-right: 100px
 }
 
-
-.bio{
-  font-size: 0.6em;
+.bio {
+    font-size: 0.6em;
 }
 
-.bio_div{
-  margin-right: 50px
+.bio_div {
+    margin-right: 50px
 }
 
-.row1{
-  margin-left: 180px;
+.row1 {
+    margin-left: 180px;
 }
 
-.Me{
-  margin: 10px;
+.Me {
+    margin: 10px;
 }
-
 
 nav li {
-  width: 150px;
+    width: 150px;
 }
 
-nav ul{
-  margin: 0;
-  display: inline;
+nav ul {
+    margin: 0;
+    display: inline;
 }
 
-nav ul li{
-  display: inline-block;
-  list-style-type: none;
-  padding: 5px 15px;
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
 }
 
-.links{
-  text-decoration: none;
-  color: #000000;
+.links {
+    text-decoration: none;
+    color: #000000;
 }
 
-.col1{
-  float: left;
-  margin: 5px 15px 0px 0px;
+.col1 {
+    float: left;
+    margin: 5px 15px 0px 0px;
 }
